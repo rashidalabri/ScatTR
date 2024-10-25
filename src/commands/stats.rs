@@ -1,8 +1,5 @@
 use crate::{
-    constants::{
-        AUTOSOME_CONTIG_NAMES, OUT_SUFFIX_DEPTH_DISTR_PLOT, OUT_SUFFIX_INSERT_DISTR_PLOT,
-        OUT_SUFFIX_STATS,
-    },
+    constants::{AUTOSOME_CONTIG_NAMES, OUT_SUFFIX_STATS},
     distributions::{expected::EstimatedDistr, trim_distr},
     extract::is_primary_read,
     util::{SampleStats, Utf8String},
@@ -10,7 +7,7 @@ use crate::{
 use clap::{arg, Parser};
 use ndarray::{Array1, Axis};
 use ndarray_ndimage::gaussian_filter1d;
-use plotters::prelude::*;
+// use plotters::prelude::*;
 use rand::{distributions::WeightedIndex, prelude::*};
 use rand_xoshiro::Xoshiro256PlusPlus;
 use rust_htslib::bam::{self, Read};
@@ -243,19 +240,19 @@ pub fn run_stats_command(args: &StatsCommandArgs, output_prefix: &Path) -> anyho
     depth_out_file.write_all(serde_json::to_string(&stats)?.as_bytes())?;
 
     // Plot the distributions
-    if !args.no_plot {
-        plot_distr(
-            &depth_distr.distr,
-            &output_prefix.with_extension(OUT_SUFFIX_DEPTH_DISTR_PLOT),
-            "Read Depth",
-        )?;
+    // if !args.no_plot {
+    //     plot_distr(
+    //         &depth_distr.distr,
+    //         &output_prefix.with_extension(OUT_SUFFIX_DEPTH_DISTR_PLOT),
+    //         "Read Depth",
+    //     )?;
 
-        plot_distr(
-            &insert_distr.distr,
-            &output_prefix.with_extension(OUT_SUFFIX_INSERT_DISTR_PLOT),
-            "Insert Size",
-        )?;
-    }
+    //     plot_distr(
+    //         &insert_distr.distr,
+    //         &output_prefix.with_extension(OUT_SUFFIX_INSERT_DISTR_PLOT),
+    //         "Insert Size",
+    //     )?;
+    // }
 
     Ok(())
 }
@@ -282,33 +279,34 @@ fn generate_random_regions(
     Ok(regions)
 }
 
-fn plot_distr(distr: &[f64], out_path: &PathBuf, name: &str) -> anyhow::Result<()> {
-    let root = BitMapBackend::new(out_path, (800, 600)).into_drawing_area();
-    root.fill(&WHITE)?;
+// fn plot_distr(distr: &[f64], out_path: &PathBuf, name: &str) -> anyhow::Result<()> {
+// let root = BitMapBackend::new(out_path, (800, 600)).into_drawing_area();
+// root.fill(&WHITE)?;
 
-    let mut chart = ChartBuilder::on(&root)
-        .caption(format!("{} Distribution", name), ("sans-serif", 24))
-        .margin(10)
-        .x_label_area_size(60)
-        .y_label_area_size(60)
-        .build_cartesian_2d(
-            0..distr.len() as u32,
-            0.0..distr.iter().cloned().fold(0.0, f64::max),
-        )?;
+// let mut chart = ChartBuilder::on(&root)
+//     .caption(format!("{} Distribution", name), ("sans-serif", 24))
+//     .margin(10)
+//     .x_label_area_size(60)
+//     .y_label_area_size(60)
+//     .build_cartesian_2d(
+//         0..distr.len() as u32,
+//         0.0..distr.iter().cloned().fold(0.0, f64::max),
+//     )?;
 
-    chart
-        .configure_mesh()
-        .x_desc(name)
-        .y_desc("Probability")
-        .axis_desc_style(("sans-serif", 20))
-        .draw()?;
+// chart
+//     .configure_mesh()
+//     .x_desc(name)
+//     .y_desc("Probability")
+//     .axis_desc_style(("sans-serif", 20))
+//     .draw()?;
 
-    chart.draw_series(LineSeries::new(
-        distr.iter().enumerate().map(|(i, &x)| (i as u32, x)),
-        &RED,
-    ))?;
+// chart.draw_series(LineSeries::new(
+//     distr.iter().enumerate().map(|(i, &x)| (i as u32, x)),
+//     &RED,
+// ))?;
 
-    root.present()?;
+// root.present()?;
 
-    Ok(())
-}
+// Ok(())
+// not implemented
+// }

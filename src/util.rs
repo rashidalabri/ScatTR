@@ -1,7 +1,5 @@
 use anyhow::{anyhow, Result};
 use bio::io::fasta;
-use chrono::Local;
-use indicatif::ProgressBar;
 use rust_htslib::bam::{self, Read};
 use serde::{de::DeserializeOwned, Deserialize, Serialize};
 use std::{
@@ -221,24 +219,4 @@ pub fn genotype_bounds(len_lower_bound: u32, len_upper_bound: u32, motif_len: us
     let num_repeats_lower = (len_lower_bound as f64 / motif_len as f64).floor();
     let num_repeats_upper = (len_upper_bound as f64 / motif_len as f64).ceil();
     (num_repeats_lower, num_repeats_upper)
-}
-
-pub fn get_progress_bar(total: u64) -> ProgressBar {
-    // Get the current date and time
-    let now = Local::now();
-
-    // Format the date and time in the desired format: Apr 19 21:58:13.035
-    let formatted_time = now.format("%b %d %H:%M:%S%.3f").to_string();
-
-    let template = formatted_time + " {msg:.green} [{bar:30.cyan/blue}] {percent}% ({elapsed})";
-
-    let bar = ProgressBar::new(total);
-    bar.set_message("INFO");
-    bar.set_style(
-        indicatif::ProgressStyle::default_bar()
-            // .template(" [{elapsed_precise}] [{bar:40.cyan/blue}] {percent}% ({eta} > {duration})")
-            .template(&template)
-            .unwrap(),
-    );
-    bar
 }
