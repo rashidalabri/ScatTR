@@ -1,0 +1,10 @@
+{
+  "test_locus": {
+    "reference_region": "test_genome:100000-100018",
+    "repeat_unit": "CAGATA",
+    "genotype": "3/106",
+    "genotype_conf_int": "3-3/104-109",
+    "cost": 43.02786846101632,
+    "alignment": null
+  }
+}

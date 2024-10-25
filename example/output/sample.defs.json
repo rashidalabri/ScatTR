@@ -1,0 +1,3510 @@
+[
+  {
+    "id": "test_locus",
+    "contig": "test_genome",
+    "start": 100000,
+    "end": 100018,
+    "motif": "CAGATA",
+    "left_flank": "TCGACGGGCAAACTCTTAAGGGGATAAATGCCCCTAGGGGTATGGTAATAAAAAGCCTATATTCCATGTTCCTTTAATTATTTTTAGTATACAATCTGTGGGTAACCTCGTTGGAGACTCTCACTTCAATTCGGGTCTCGTGGACCCTTACTACTTAACGCCCAATCTAAACCGACTCTAAAAATCCTAAGGATTTTTGGACGGCTCCCTTTCCTTCAGTAAATGACGTCTTTTGGTGTACCGTCGCTGCCCTTATGGACCGTATTCTTATGTCCAGTAGACTGCCACCAAACTGCATGCGCCCAAGAACGCATGCGTGATGCGTCTTCAGCGATGTTGAACGTCCCCTTTCATCACCGGATAAGCATGCTAGATAAGAGTCCATCAACAACGAGCCTAGGTTGCTCATCGATGCCAAGCTCGAACCGTGTGCTGCAGCAGAGGAGTACCAGTGGGACACTCACGGCAACAGATAAGTATGACAGACCCAGCTTAAGTGCGATCAAGTGTGCCCGGGGGAACGGGGCCTCTACCGCGGAAATTAAGTTCTGTCTCATTCGGAGCTGTTTAATGATTTCCCGTCTAGAGCAATTTAACATATTAATGGGGATCCACAGCAGAAATGCCTACACCTGATCAGTCTGTGCGCGTTAGGAAGACGCGCCGAGGTCTATGGAGTGTCATGAGTTCACCTTGATATTAACATCTACAGCAACCTACTTGTATACCAAGCAGGTGTACCGGCCCCTGGAGACGTTGAGAGCTATGCACCTGCGACGAACACAAGAGTCGGGGGGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAATAGAATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGT",
+    "right_flank": "CCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGGATGCGTTACTCGATCTTCCTTAATTACAATGAAGCCCTATCCTTTAAAAATCTAAGCGCCGAACCAGTCGAAACCAGGTCCTATATAGGCCCCTACAGAATAAAGGGAGTACTCAGACGGTATGACCTGGCAGGACTTACTTAGGACGACATCCTCCTCAGGTAGGTCTACTTACGCAGCTTAGTGTACTGAGACTACTACCAATTGAACATTCACACCTTGCGACGCTTCAGACACCGTATGTTTATACGTTTAGGTCCGAGACCTGTGTAAGTAACCGATTTGCCGACGTTTTAGCTTCATAGTGCTTCGGGCTAAGACAAAGGATCGAGGGACCGCCTGCCATGATAGATGAGATCCGGCTGCCAGCATAACAGCAATGCACAGGTACGGGTAGGCGATTGAAGGTATTGTCGCCGCCCGAAAAGTCTTAGGTTCCATTTAGAGATCTCCCGGCCAGAATTTCACAGCTCGTCTGTGTTCGACAACGAGATCGCCTAGCCAAGTTACTACCAGGATTGTGTACCATCCCCACCGGCAAATTGATGAGTCGCGGATTCACGAGCGTCCGTGCCTTGAGGCAGATTGTTAAAAGCAGTGGACATAGCTAACGTGCGTCATTATTGAGCAGTAGCTATGGAACAATGGTTGTAGTTAGTACCCAGCATGCCCATTTGCACGTACTGAATGTCTGCATTCGATTGCCCACCCGTCATGGTATCATATCCAACCCGCCTCACCCCAGGACGGTGGTTCCCTTACGAGGGCCGCCCCTTAACTAGCTAGAGTCGATGGTCAGTCGTATGTCCAACTGGCAAGTAAGCCACCTATCGGCCCCCGCTATAAGCCAAGGTCACCGACAAAGTTATCGCATTCGCCACTTACCGATATTTTGGTTAGCCAGTCCCTCACTTCTATCTCAATAGGGGGGGCCTTGTCATACGATGTGCGGGACCAACCTACAATAGCGGTTATTAGGTGCGGTACTACAGCACCGTAGTGCGATGTGTGCTTACCAGAGTACGCGAAAGCTCGATGTTTTGACAACTTAACGGACCGAGGACAAGGCGCAATAAGACTATCAAATCACCTCATCGGCTCACGAAACTTGATCAGAGGCCAGGAGGTACAAAACATACTCTACTATCCCGCTTCCTGAACAGCGGGTGTATCTACTCGATGTCCGTTCGCAGCTTTGTAAAGTTC",
+    "reads": [
+      {
+        "qname": "test_genome-hap13547",
+        "source_contig": "test_genome",
+        "source_pos": 100350,
+        "mapq": 60,
+        "seq": "TACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 332): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13547",
+        "source_contig": "test_genome",
+        "source_pos": 100080,
+        "mapq": 60,
+        "seq": "GATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTGGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 62): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17893",
+        "source_contig": "test_genome",
+        "source_pos": 99307,
+        "mapq": 60,
+        "seq": "GGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -693): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17893",
+        "source_contig": "test_genome",
+        "source_pos": 99614,
+        "mapq": 60,
+        "seq": "AACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCATTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATTGATGCTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -386): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217699",
+        "source_contig": "test_genome",
+        "source_pos": 100342,
+        "mapq": 60,
+        "seq": "GCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 324): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217699",
+        "source_contig": "test_genome",
+        "source_pos": 100118,
+        "mapq": 60,
+        "seq": "TGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 100): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap111089",
+        "source_contig": "test_genome",
+        "source_pos": 99688,
+        "mapq": 60,
+        "seq": "ATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCTAGAAAGAGTGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -312): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap111089",
+        "source_contig": "test_genome",
+        "source_pos": 99414,
+        "mapq": 60,
+        "seq": "TACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAATAGAATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -586): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap111353",
+        "source_contig": "test_genome",
+        "source_pos": 99968,
+        "mapq": 60,
+        "seq": "TTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -50): 21)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap111353",
+        "source_contig": "test_genome",
+        "source_pos": 99716,
+        "mapq": 60,
+        "seq": "GACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -284): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28081",
+        "source_contig": "test_genome",
+        "source_pos": 100465,
+        "mapq": 60,
+        "seq": "ATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTCAGCTGCGTAAGTAGACCTACCTGAGGAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 447): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28081",
+        "source_contig": "test_genome",
+        "source_pos": 100129,
+        "mapq": 60,
+        "seq": "ACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACAGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 111): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27643",
+        "source_contig": "test_genome",
+        "source_pos": 99932,
+        "mapq": 60,
+        "seq": "CTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -68): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27643",
+        "source_contig": "test_genome",
+        "source_pos": 99932,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24579",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "ATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 5): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24579",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "AGGTACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACATAAACAGATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -149): 3)",
+          "(WithinRepeat(Forward, 1): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12021",
+        "source_contig": "test_genome",
+        "source_pos": 99918,
+        "mapq": 60,
+        "seq": "ACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGAGGTTTGTGTATCGAGGCAAGCGCAAATACCTAGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -82): 33)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12021",
+        "source_contig": "test_genome",
+        "source_pos": 100241,
+        "mapq": 60,
+        "seq": "ACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCGCCTTATACTCAATCGTATTGTAGGACACGGCCCGCCGCGGTTTGAAGGCACGCGCAACAACAGGTGACT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 223): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap211581",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 60,
+        "seq": "ACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -44): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap211581",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "AGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACTGATACAGATACAGATACAGATACAGATACAGATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -149): 1)",
+          "(WithinRepeat(Forward, 1): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap213871",
+        "source_contig": "test_genome",
+        "source_pos": 99709,
+        "mapq": 60,
+        "seq": "CGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGCCGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -291): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap213871",
+        "source_contig": "test_genome",
+        "source_pos": 99371,
+        "mapq": 60,
+        "seq": "TTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAACAGAATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCTACACTTCACTGAATGGATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -629): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25199",
+        "source_contig": "test_genome",
+        "source_pos": 100181,
+        "mapq": 60,
+        "seq": "GGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 163): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25199",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "AGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATTC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -149): 1)",
+          "(WithinRepeat(Forward, 1): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25107",
+        "source_contig": "test_genome",
+        "source_pos": 99905,
+        "mapq": 0,
+        "seq": "TATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 0): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25107",
+        "source_contig": "test_genome",
+        "source_pos": 99905,
+        "mapq": 60,
+        "seq": "CCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGTTACAGATACAGATACAGATACAGATACAGATACTGATACAGATACAGATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -95): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25319",
+        "source_contig": "test_genome",
+        "source_pos": 99506,
+        "mapq": 60,
+        "seq": "TTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -494): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25319",
+        "source_contig": "test_genome",
+        "source_pos": 99809,
+        "mapq": 60,
+        "seq": "GTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -191): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap14757",
+        "source_contig": "test_genome",
+        "source_pos": 100002,
+        "mapq": 60,
+        "seq": "GATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -16): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap14757",
+        "source_contig": "test_genome",
+        "source_pos": 100330,
+        "mapq": 60,
+        "seq": "GACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTTAG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 312): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap18399",
+        "source_contig": "test_genome",
+        "source_pos": 99721,
+        "mapq": 60,
+        "seq": "AGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -279): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap18399",
+        "source_contig": "test_genome",
+        "source_pos": 99534,
+        "mapq": 60,
+        "seq": "TCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCAACAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -466): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22661",
+        "source_contig": "test_genome",
+        "source_pos": 100465,
+        "mapq": 60,
+        "seq": "ATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 447): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22661",
+        "source_contig": "test_genome",
+        "source_pos": 100162,
+        "mapq": 60,
+        "seq": "CATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 144): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap26035",
+        "source_contig": "test_genome",
+        "source_pos": 99598,
+        "mapq": 60,
+        "seq": "TTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -402): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap26035",
+        "source_contig": "test_genome",
+        "source_pos": 99968,
+        "mapq": 60,
+        "seq": "TCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -32): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap18165",
+        "source_contig": "test_genome",
+        "source_pos": 99823,
+        "mapq": 60,
+        "seq": "GCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -177): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap18165",
+        "source_contig": "test_genome",
+        "source_pos": 99600,
+        "mapq": 60,
+        "seq": "TGCTGCGGAAAATATAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -400): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15187",
+        "source_contig": "test_genome",
+        "source_pos": 99644,
+        "mapq": 60,
+        "seq": "CGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -356): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15187",
+        "source_contig": "test_genome",
+        "source_pos": 99981,
+        "mapq": 60,
+        "seq": "GTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGACGCCATCTTCACGACCCG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -37): 15)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap11243",
+        "source_contig": "test_genome",
+        "source_pos": 100367,
+        "mapq": 60,
+        "seq": "ATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 349): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap11243",
+        "source_contig": "test_genome",
+        "source_pos": 99972,
+        "mapq": 60,
+        "seq": "CCCACGAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGTGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -46): 21)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218633",
+        "source_contig": "test_genome",
+        "source_pos": 100083,
+        "mapq": 60,
+        "seq": "GGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 65): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218633",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TACAGATACAGATACAGATACTGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 4): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25797",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Forward, 4): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25797",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 60,
+        "seq": "TTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTTTCTGTATCTGTATCTGTATCTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -60): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210841",
+        "source_contig": "test_genome",
+        "source_pos": 99768,
+        "mapq": 60,
+        "seq": "GGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -232): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210841",
+        "source_contig": "test_genome",
+        "source_pos": 99483,
+        "mapq": 60,
+        "seq": "GGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -517): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap16335",
+        "source_contig": "test_genome",
+        "source_pos": 100136,
+        "mapq": 60,
+        "seq": "TAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 118): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap16335",
+        "source_contig": "test_genome",
+        "source_pos": 100499,
+        "mapq": 60,
+        "seq": "GGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATTAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTTGTCTCAGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 481): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114035",
+        "source_contig": "test_genome",
+        "source_pos": 100607,
+        "mapq": 60,
+        "seq": "CTAAATGGAACCTAAGACTTTTCGGGCGGCGACAATACCTTCAATCGCCTACCCGTACCTGTGCATTTCTGTTATGCTGGCAGCCGGATCTCATCTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 589): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114035",
+        "source_contig": "test_genome",
+        "source_pos": 100231,
+        "mapq": 60,
+        "seq": "CCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGGATGCGTTACTCGATCTTCCTTAATTACAATGTAGCCCTATCCTTTAAAAATCTAAGCGCCGAACCAGTC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 213): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap212887",
+        "source_contig": "test_genome",
+        "source_pos": 100164,
+        "mapq": 60,
+        "seq": "TCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGGAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 146): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap212887",
+        "source_contig": "test_genome",
+        "source_pos": 100489,
+        "mapq": 60,
+        "seq": "TCCTTTGTCTTAGCCCGAACCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGGCTCAGTACACTAAGCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 471): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap214937",
+        "source_contig": "test_genome",
+        "source_pos": 100005,
+        "mapq": 0,
+        "seq": "CAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Forward, 0): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap214937",
+        "source_contig": "test_genome",
+        "source_pos": 100005,
+        "mapq": 60,
+        "seq": "ATGGACATAGAAGCAATTAGAAAAGTAACCGACCACATTTTGATGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTAGACGTCCTCGGTATCTGTATATGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -13): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2433",
+        "source_contig": "test_genome",
+        "source_pos": 99742,
+        "mapq": 60,
+        "seq": "GTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTATGCTACACGCGCCCAGTCAAACCAA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -258): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2433",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTCTCTGTATCTGTATCTGTATCTGTACCTGTATCTGTATCTGTATCTGTATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 2): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218411",
+        "source_contig": "test_genome",
+        "source_pos": 99911,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTTTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218411",
+        "source_contig": "test_genome",
+        "source_pos": 99911,
+        "mapq": 60,
+        "seq": "AAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGAGACAGATACAGATACAGATACAGGTACAGATACAGATACAAATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -89): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22641",
+        "source_contig": "test_genome",
+        "source_pos": 99722,
+        "mapq": 60,
+        "seq": "AAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -278): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22641",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 2): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114965",
+        "source_contig": "test_genome",
+        "source_pos": 100477,
+        "mapq": 60,
+        "seq": "GCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGAC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 459): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114965",
+        "source_contig": "test_genome",
+        "source_pos": 100115,
+        "mapq": 60,
+        "seq": "AAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 97): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210927",
+        "source_contig": "test_genome",
+        "source_pos": 100150,
+        "mapq": 60,
+        "seq": "AATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 132): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210927",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGACACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 4): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap113751",
+        "source_contig": "test_genome",
+        "source_pos": 99930,
+        "mapq": 60,
+        "seq": "TACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCATGCGCAAATACCTAGTCCTGGGGACGCA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -70): 38)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap113751",
+        "source_contig": "test_genome",
+        "source_pos": 100209,
+        "mapq": 60,
+        "seq": "TAGAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 191): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29011",
+        "source_contig": "test_genome",
+        "source_pos": 100003,
+        "mapq": 60,
+        "seq": "ATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -15): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29011",
+        "source_contig": "test_genome",
+        "source_pos": 100365,
+        "mapq": 60,
+        "seq": "GGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCCCTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 347): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29559",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "TGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTATATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 2): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29559",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "AGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -149): 0)",
+          "(WithinRepeat(Forward, 1): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap19991",
+        "source_contig": "test_genome",
+        "source_pos": 100346,
+        "mapq": 60,
+        "seq": "CTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 328): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap19991",
+        "source_contig": "test_genome",
+        "source_pos": 100049,
+        "mapq": 60,
+        "seq": "GCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTGCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 31): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114229",
+        "source_contig": "test_genome",
+        "source_pos": 100204,
+        "mapq": 60,
+        "seq": "AGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGGATGCGTTACTCGATCTTCCTTAATTACAATGAAGCCCTATCC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 186): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114229",
+        "source_contig": "test_genome",
+        "source_pos": 100529,
+        "mapq": 60,
+        "seq": "GGCAGCCGGATCTCATCTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACTGTGTCTGAAGCGTCGCAAGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 511): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15567",
+        "source_contig": "test_genome",
+        "source_pos": 99536,
+        "mapq": 60,
+        "seq": "TCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -464): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15567",
+        "source_contig": "test_genome",
+        "source_pos": 99769,
+        "mapq": 60,
+        "seq": "TGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -231): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219305",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Forward, 4): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219305",
+        "source_contig": "test_genome",
+        "source_pos": 100099,
+        "mapq": 60,
+        "seq": "AGGTGACTCAGGCTCCGGCCCACCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTGACCGACCACATTTTGCTGTTTTTTGGTCC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 81): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217163",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Forward, 0): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217163",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "TATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCGGTATCTGTATCTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 0): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap116781",
+        "source_contig": "test_genome",
+        "source_pos": 99621,
+        "mapq": 60,
+        "seq": "ACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -379): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap116781",
+        "source_contig": "test_genome",
+        "source_pos": 99302,
+        "mapq": 60,
+        "seq": "AGAGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCCTATCGAGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -698): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap21691",
+        "source_contig": "test_genome",
+        "source_pos": 99510,
+        "mapq": 60,
+        "seq": "CTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGAC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -490): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap21691",
+        "source_contig": "test_genome",
+        "source_pos": 99751,
+        "mapq": 60,
+        "seq": "GTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -249): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12231",
+        "source_contig": "test_genome",
+        "source_pos": 99594,
+        "mapq": 60,
+        "seq": "ACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTGCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATTGATGCTTTATTTTCCGCAGCAAATTTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -406): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12231",
+        "source_contig": "test_genome",
+        "source_pos": 99294,
+        "mapq": 60,
+        "seq": "GAGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -706): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2149",
+        "source_contig": "test_genome",
+        "source_pos": 100064,
+        "mapq": 60,
+        "seq": "TAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTTTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 46): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2149",
+        "source_contig": "test_genome",
+        "source_pos": 100333,
+        "mapq": 60,
+        "seq": "GTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTCGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 315): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29163",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "GTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -149): 0)",
+          "(WithinRepeat(Reverse, 1): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29163",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "GAAACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 2): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210127",
+        "source_contig": "test_genome",
+        "source_pos": 99654,
+        "mapq": 60,
+        "seq": "ATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -346): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210127",
+        "source_contig": "test_genome",
+        "source_pos": 99233,
+        "mapq": 60,
+        "seq": "AGGTGTACCGGCCCCTGGAGACGTTGAGAGCTATGCACCTGCGACGAACACAAGAGTCGGGGGGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -767): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216251",
+        "source_contig": "test_genome",
+        "source_pos": 99734,
+        "mapq": 60,
+        "seq": "AAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCCTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -266): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216251",
+        "source_contig": "test_genome",
+        "source_pos": 99956,
+        "mapq": 60,
+        "seq": "TCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTATGCTGGCGTGTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -44): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1159",
+        "source_contig": "test_genome",
+        "source_pos": 99935,
+        "mapq": 60,
+        "seq": "CCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -65): 41)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1159",
+        "source_contig": "test_genome",
+        "source_pos": 99636,
+        "mapq": 60,
+        "seq": "GCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -364): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112447",
+        "source_contig": "test_genome",
+        "source_pos": 99786,
+        "mapq": 60,
+        "seq": "TCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -214): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112447",
+        "source_contig": "test_genome",
+        "source_pos": 99535,
+        "mapq": 60,
+        "seq": "CTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -465): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13787",
+        "source_contig": "test_genome",
+        "source_pos": 100055,
+        "mapq": 60,
+        "seq": "GCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 37): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13787",
+        "source_contig": "test_genome",
+        "source_pos": 100364,
+        "mapq": 60,
+        "seq": "GCTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTCTATAGGACCTGGTTTCGACTGGTTCGGCGCTTA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 346): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap211959",
+        "source_contig": "test_genome",
+        "source_pos": 99713,
+        "mapq": 60,
+        "seq": "CTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -287): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap211959",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 2): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216659",
+        "source_contig": "test_genome",
+        "source_pos": 99570,
+        "mapq": 60,
+        "seq": "TGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATTGATGCTTTATTGTCCGCAGCAAATTTAGCTGGTCAATGGGCCACGGAACGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -430): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216659",
+        "source_contig": "test_genome",
+        "source_pos": 99338,
+        "mapq": 60,
+        "seq": "CAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAATAGAATTGGCTTCATGAAGAAATGGATT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -662): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap211917",
+        "source_contig": "test_genome",
+        "source_pos": 100437,
+        "mapq": 60,
+        "seq": "ACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 419): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap211917",
+        "source_contig": "test_genome",
+        "source_pos": 100055,
+        "mapq": 60,
+        "seq": "GCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAATCGACTGAGATCA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 37): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap115661",
+        "source_contig": "test_genome",
+        "source_pos": 99317,
+        "mapq": 60,
+        "seq": "TTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAATAGAATT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -683): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap115661",
+        "source_contig": "test_genome",
+        "source_pos": 99625,
+        "mapq": 60,
+        "seq": "CAGGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCTGGAATACTCGCTAGTGGCCCCATGCCAAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -375): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114497",
+        "source_contig": "test_genome",
+        "source_pos": 100108,
+        "mapq": 60,
+        "seq": "CGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTAACCGACCACATTTTGCTGTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 90): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114497",
+        "source_contig": "test_genome",
+        "source_pos": 99761,
+        "mapq": 60,
+        "seq": "GTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -239): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13791",
+        "source_contig": "test_genome",
+        "source_pos": 99677,
+        "mapq": 60,
+        "seq": "GTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -323): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13791",
+        "source_contig": "test_genome",
+        "source_pos": 99987,
+        "mapq": 60,
+        "seq": "ACAAAAGTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTTGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTGGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGGCGCTATCTTCAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -31): 12)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217905",
+        "source_contig": "test_genome",
+        "source_pos": 99549,
+        "mapq": 60,
+        "seq": "CACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGTGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -451): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217905",
+        "source_contig": "test_genome",
+        "source_pos": 99955,
+        "mapq": 60,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTATGCTGGCGTGTTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -45): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24793",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "AGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATAC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -149): 0)",
+          "(WithinRepeat(Forward, 1): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24793",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 60,
+        "seq": "GCAATTAGAAAAGTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACTTCCTTGACGTCCGCGCTATCTGTATCTGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -25): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218649",
+        "source_contig": "test_genome",
+        "source_pos": 100458,
+        "mapq": 60,
+        "seq": "TAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 440): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218649",
+        "source_contig": "test_genome",
+        "source_pos": 100135,
+        "mapq": 60,
+        "seq": "CCAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 117): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218771",
+        "source_contig": "test_genome",
+        "source_pos": 100158,
+        "mapq": 60,
+        "seq": "TGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 140): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218771",
+        "source_contig": "test_genome",
+        "source_pos": 100513,
+        "mapq": 60,
+        "seq": "CTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 495): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap214121",
+        "source_contig": "test_genome",
+        "source_pos": 100281,
+        "mapq": 60,
+        "seq": "CGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 263): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap214121",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 60,
+        "seq": "AGATACAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGAGTATCGAGGCAAGCGCAAATACCTAGTGCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -23): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap115913",
+        "source_contig": "test_genome",
+        "source_pos": 100206,
+        "mapq": 60,
+        "seq": "AAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGCAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 188): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap115913",
+        "source_contig": "test_genome",
+        "source_pos": 99803,
+        "mapq": 60,
+        "seq": "TATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCGCGTGGTACTGATTATTCGGGCAAATCCA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -197): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap23313",
+        "source_contig": "test_genome",
+        "source_pos": 100106,
+        "mapq": 60,
+        "seq": "GAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTAACCCACCACATTTTGCTGTTTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 88): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap23313",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "AGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -149): 0)",
+          "(WithinRepeat(Forward, 1): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25125",
+        "source_contig": "test_genome",
+        "source_pos": 100031,
+        "mapq": 60,
+        "seq": "CGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 13): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap25125",
+        "source_contig": "test_genome",
+        "source_pos": 100031,
+        "mapq": 0,
+        "seq": "ACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATAAAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 5): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2387",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2387",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "GATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 2): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29847",
+        "source_contig": "test_genome",
+        "source_pos": 99621,
+        "mapq": 60,
+        "seq": "AATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -379): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29847",
+        "source_contig": "test_genome",
+        "source_pos": 99809,
+        "mapq": 60,
+        "seq": "GTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -191): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29817",
+        "source_contig": "test_genome",
+        "source_pos": 99721,
+        "mapq": 60,
+        "seq": "AAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -279): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29817",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "GTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAACTGTATCTGTATCTGTACCTGTATCTGTATCTGTATCTGTATCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -149): 2)",
+          "(WithinRepeat(Reverse, 1): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2379",
+        "source_contig": "test_genome",
+        "source_pos": 99784,
+        "mapq": 60,
+        "seq": "AGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -216): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2379",
+        "source_contig": "test_genome",
+        "source_pos": 99451,
+        "mapq": 60,
+        "seq": "GCCACCAAATAGAATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGATGTTCCGTGGCCCATTGACCAGCTAAATTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -549): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27499",
+        "source_contig": "test_genome",
+        "source_pos": 99874,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCAGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27499",
+        "source_contig": "test_genome",
+        "source_pos": 99874,
+        "mapq": 60,
+        "seq": "CGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCTACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACAGATA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -126): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2573",
+        "source_contig": "test_genome",
+        "source_pos": 100031,
+        "mapq": 60,
+        "seq": "GGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 13): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2573",
+        "source_contig": "test_genome",
+        "source_pos": 100323,
+        "mapq": 60,
+        "seq": "CCGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGCACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 305): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112677",
+        "source_contig": "test_genome",
+        "source_pos": 100056,
+        "mapq": 60,
+        "seq": "CAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTTGACTGAGATCAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 38): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112677",
+        "source_contig": "test_genome",
+        "source_pos": 100347,
+        "mapq": 60,
+        "seq": "ACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 329): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap212441",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "TATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 0): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap212441",
+        "source_contig": "test_genome",
+        "source_pos": 99798,
+        "mapq": 60,
+        "seq": "TGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCACACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -202): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15343",
+        "source_contig": "test_genome",
+        "source_pos": 100131,
+        "mapq": 60,
+        "seq": "GCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 113): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15343",
+        "source_contig": "test_genome",
+        "source_pos": 99798,
+        "mapq": 60,
+        "seq": "TGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGGCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -202): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27603",
+        "source_contig": "test_genome",
+        "source_pos": 99463,
+        "mapq": 60,
+        "seq": "AATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -537): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27603",
+        "source_contig": "test_genome",
+        "source_pos": 99833,
+        "mapq": 60,
+        "seq": "CGACTTGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTTACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -167): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1233",
+        "source_contig": "test_genome",
+        "source_pos": 100152,
+        "mapq": 60,
+        "seq": "TCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 134): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1233",
+        "source_contig": "test_genome",
+        "source_pos": 99985,
+        "mapq": 60,
+        "seq": "TCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTAAGTTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -33): 13)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216519",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "ATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 5): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216519",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 0): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28969",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28969",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "ATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 3): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap213681",
+        "source_contig": "test_genome",
+        "source_pos": 99481,
+        "mapq": 60,
+        "seq": "ATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGATGCGGAAAATAAAGCATCAATCGTTGGC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -519): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap213681",
+        "source_contig": "test_genome",
+        "source_pos": 99840,
+        "mapq": 60,
+        "seq": "CACGACCCGACTTGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -160): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15927",
+        "source_contig": "test_genome",
+        "source_pos": 99739,
+        "mapq": 60,
+        "seq": "TTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCTTGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAAC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -261): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap15927",
+        "source_contig": "test_genome",
+        "source_pos": 99959,
+        "mapq": 60,
+        "seq": "TTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGCCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGACGCTATCTTCGCGACCCGACTTGTGGGCTTATGCTGGCGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -59): 28)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17441",
+        "source_contig": "test_genome",
+        "source_pos": 100282,
+        "mapq": 60,
+        "seq": "GTGTCCTACAATACGATTGAGTATAAGGGGATGCGTTACTCGATCTTCCTTAATTACAATGAAGCCCTATCCTTTAAAAATCTAAGCGCCGAACCAGTCGAAACCAGGTCCTATATAGGCCCCTACAGAATAAAGGGAGTACTCAGACGG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 264): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17441",
+        "source_contig": "test_genome",
+        "source_pos": 100615,
+        "mapq": 60,
+        "seq": "GGAGATCTCTAAATGGAACCTAAGACTTTTCGGGCGGCAACAATACCTTCCATCGCCTACCCGTACCTGTGCATTGCTGATATGCTGGCAGCCGGATCTCATCTATCATGGCAGGCAGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 597): 5)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1409",
+        "source_contig": "test_genome",
+        "source_pos": 100446,
+        "mapq": 60,
+        "seq": "AAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 428): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1409",
+        "source_contig": "test_genome",
+        "source_pos": 100153,
+        "mapq": 60,
+        "seq": "ATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTAGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 135): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217269",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217269",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "TACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 4): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap16795",
+        "source_contig": "test_genome",
+        "source_pos": 100536,
+        "mapq": 60,
+        "seq": "TTATGCTGGCAGCCGGATCTCATCTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 518): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap16795",
+        "source_contig": "test_genome",
+        "source_pos": 100274,
+        "mapq": 60,
+        "seq": "GGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGGATGCGTTACTCGATCTTCCTTAATTACAATGAAGCCCTATCCTTTAAAAATCTAAGCGCCGAACCAGTCGAAACCAGGTCCTATATAGGCCCCTACAGAATAAAGGGAATAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 256): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219703",
+        "source_contig": "test_genome",
+        "source_pos": 99644,
+        "mapq": 60,
+        "seq": "CGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -356): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219703",
+        "source_contig": "test_genome",
+        "source_pos": 99291,
+        "mapq": 60,
+        "seq": "ATGGGGGGGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -712): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12415",
+        "source_contig": "test_genome",
+        "source_pos": 100590,
+        "mapq": 60,
+        "seq": "CTTTTCGGGCGGCGACAATACCTTCAATCGCCTACCCGTACCTGTGCATTGCTGTTATGCTGGCAGCCGGATCTCATCTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 572): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12415",
+        "source_contig": "test_genome",
+        "source_pos": 100308,
+        "mapq": 60,
+        "seq": "GGGGATGCGTTACTCGATCTTCCTTAATTACAATGAAGCCCTATCCTTTAAAAATCTAAGCGCCGAACCAGTCGAAACCAGGTCCTATATAGGCCCCTACAGAATAAAGGGAGTACTCAGACGGTATGACCTGGCAGGACTTACTTAGGA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 290): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap115623",
+        "source_contig": "test_genome",
+        "source_pos": 100138,
+        "mapq": 60,
+        "seq": "GGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 120): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap115623",
+        "source_contig": "test_genome",
+        "source_pos": 99829,
+        "mapq": 60,
+        "seq": "CTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -171): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12439",
+        "source_contig": "test_genome",
+        "source_pos": 100026,
+        "mapq": 60,
+        "seq": "ATCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATTCTGTGTTTAC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 8): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap12439",
+        "source_contig": "test_genome",
+        "source_pos": 100355,
+        "mapq": 60,
+        "seq": "CTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGAACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 337): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216007",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "TATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 0): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap216007",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "TCAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -1): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap214297",
+        "source_contig": "test_genome",
+        "source_pos": 100254,
+        "mapq": 60,
+        "seq": "CGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACTGCCCGCCGCGGTTTGAAGGCACGCGGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 236): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap214297",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 18,
+        "seq": "TACAGATACAGATACACATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACCGACGACGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -140): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219737",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CTCGGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTACCTGTATCTGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -145): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219737",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATAGAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATATAGATACAGATACAGATACAGATACAGATACAGATA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 0): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap116631",
+        "source_contig": "test_genome",
+        "source_pos": 99694,
+        "mapq": 60,
+        "seq": "TTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -306): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap116631",
+        "source_contig": "test_genome",
+        "source_pos": 99405,
+        "mapq": 60,
+        "seq": "GTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCAACAAATACAATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -595): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17853",
+        "source_contig": "test_genome",
+        "source_pos": 100292,
+        "mapq": 60,
+        "seq": "CCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 274): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17853",
+        "source_contig": "test_genome",
+        "source_pos": 99924,
+        "mapq": 60,
+        "seq": "TCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -76): 37)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217071",
+        "source_contig": "test_genome",
+        "source_pos": 99653,
+        "mapq": 60,
+        "seq": "TATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -347): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap217071",
+        "source_contig": "test_genome",
+        "source_pos": 99279,
+        "mapq": 60,
+        "seq": "AACACAAGAGTCGGGGGGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -721): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210721",
+        "source_contig": "test_genome",
+        "source_pos": 99810,
+        "mapq": 60,
+        "seq": "ATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -190): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap210721",
+        "source_contig": "test_genome",
+        "source_pos": 99810,
+        "mapq": 0,
+        "seq": "ATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATTTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTTTCTGTATCCGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 5): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap14627",
+        "source_contig": "test_genome",
+        "source_pos": 99776,
+        "mapq": 60,
+        "seq": "GAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTAAAGGATCAAGATATATCAAAAGCGTCCATGGGAGGTTGTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -224): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap14627",
+        "source_contig": "test_genome",
+        "source_pos": 99429,
+        "mapq": 60,
+        "seq": "CTACCGCATTATGTATGCTTACGCCACCAAATAGAATTGGCTTCATGAAGAAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -571): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28725",
+        "source_contig": "test_genome",
+        "source_pos": 99874,
+        "mapq": 60,
+        "seq": "CGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACAGATA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -126): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28725",
+        "source_contig": "test_genome",
+        "source_pos": 99874,
+        "mapq": 0,
+        "seq": "ATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCCGTATCTGTATCTGTATCTGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 5): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17165",
+        "source_contig": "test_genome",
+        "source_pos": 99761,
+        "mapq": 60,
+        "seq": "GTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGTTCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -239): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17165",
+        "source_contig": "test_genome",
+        "source_pos": 100161,
+        "mapq": 60,
+        "seq": "CCCTTATACTCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 143): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap26727",
+        "source_contig": "test_genome",
+        "source_pos": 99913,
+        "mapq": 60,
+        "seq": "ACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -87): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap26727",
+        "source_contig": "test_genome",
+        "source_pos": 99913,
+        "mapq": 0,
+        "seq": "GTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTGTCTGTATCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -149): 1)",
+          "(WithinRepeat(Reverse, 1): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap215609",
+        "source_contig": "test_genome",
+        "source_pos": 100395,
+        "mapq": 60,
+        "seq": "CTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 377): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap215609",
+        "source_contig": "test_genome",
+        "source_pos": 100108,
+        "mapq": 60,
+        "seq": "AACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 90): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218225",
+        "source_contig": "test_genome",
+        "source_pos": 99930,
+        "mapq": 60,
+        "seq": "TGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGACGCTATCTTCAAGACCCGACTTGTGGGCTTATGCTGGCGTGTTTACTGGAATTGCCCGAATAATCAGTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -70): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218225",
+        "source_contig": "test_genome",
+        "source_pos": 99746,
+        "mapq": 60,
+        "seq": "TTTAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATGCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCTAGTCAAACCAACCTA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -254): 4)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119363",
+        "source_contig": "test_genome",
+        "source_pos": 99703,
+        "mapq": 60,
+        "seq": "ATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCATGTAACAACCTCCCATCGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -297): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119363",
+        "source_contig": "test_genome",
+        "source_pos": 99989,
+        "mapq": 60,
+        "seq": "TTAGAAAAGTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGTCTTCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGACGCTATCTTC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -29): 7)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119577",
+        "source_contig": "test_genome",
+        "source_pos": 99915,
+        "mapq": 60,
+        "seq": "TCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -85): 30)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119577",
+        "source_contig": "test_genome",
+        "source_pos": 100186,
+        "mapq": 60,
+        "seq": "AATAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAAAACATAATCGTCAACTGATCTCAGTCGACTTAGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 168): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17407",
+        "source_contig": "test_genome",
+        "source_pos": 100425,
+        "mapq": 60,
+        "seq": "CTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAATAAGTCCTGCCAGGTCATACCGTCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 407): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17407",
+        "source_contig": "test_genome",
+        "source_pos": 100111,
+        "mapq": 60,
+        "seq": "AGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 93): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22849",
+        "source_contig": "test_genome",
+        "source_pos": 100259,
+        "mapq": 60,
+        "seq": "TGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCAC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 241): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22849",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 60,
+        "seq": "CAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGAAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAACACCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -72): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28325",
+        "source_contig": "test_genome",
+        "source_pos": 99203,
+        "mapq": 60,
+        "seq": "CATCTACAGCAACCTACTTGTATACCAAGCAGGTGTACCGGCCCCTGGAGACGTTGAGAGCTATGCACCTGCGACGAACACAAGAGTCGGGGGGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -797): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28325",
+        "source_contig": "test_genome",
+        "source_pos": 99561,
+        "mapq": 60,
+        "seq": "CTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATTGATGCTTTATTTTCCGCAGCAAATTTAGCTGGTCAATGGGCCACGGAACGTCAGTCCTAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -439): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114323",
+        "source_contig": "test_genome",
+        "source_pos": 100090,
+        "mapq": 60,
+        "seq": "AGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 72): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap114323",
+        "source_contig": "test_genome",
+        "source_pos": 100394,
+        "mapq": 60,
+        "seq": "TGAAGCGTCGCATGGTGTGAATGTTCAATTGGTATTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 376): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24513",
+        "source_contig": "test_genome",
+        "source_pos": 99560,
+        "mapq": 60,
+        "seq": "CATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -440): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24513",
+        "source_contig": "test_genome",
+        "source_pos": 99828,
+        "mapq": 60,
+        "seq": "TGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGCCTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -172): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22261",
+        "source_contig": "test_genome",
+        "source_pos": 100100,
+        "mapq": 60,
+        "seq": "GACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 82): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22261",
+        "source_contig": "test_genome",
+        "source_pos": 100455,
+        "mapq": 60,
+        "seq": "AACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACATGAGGAGGATGGCGTCC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 437): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219763",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "ACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGAT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Forward, 5): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap219763",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "GTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -149): 0)",
+          "(WithinRepeat(Reverse, 1): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap18469",
+        "source_contig": "test_genome",
+        "source_pos": 100287,
+        "mapq": 60,
+        "seq": "GCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 269): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap18469",
+        "source_contig": "test_genome",
+        "source_pos": 100082,
+        "mapq": 60,
+        "seq": "TGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 64): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap14335",
+        "source_contig": "test_genome",
+        "source_pos": 99816,
+        "mapq": 60,
+        "seq": "CTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGGGGGTACATAATTTTGGGCATGCTAAAGGATCAGTCTCGTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -184): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap14335",
+        "source_contig": "test_genome",
+        "source_pos": 99479,
+        "mapq": 60,
+        "seq": "AAATGGATTCCGAGATACCAGCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCAATAGGACTCACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGATG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -521): 3)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28533",
+        "source_contig": "test_genome",
+        "source_pos": 100039,
+        "mapq": 60,
+        "seq": "GTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 21): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap28533",
+        "source_contig": "test_genome",
+        "source_pos": 100344,
+        "mapq": 60,
+        "seq": "AAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAGGATAGGGCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 326): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27199",
+        "source_contig": "test_genome",
+        "source_pos": 99984,
+        "mapq": 60,
+        "seq": "GTCGTGAAGATAGCGTCAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGCTACAGATACA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -16): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap27199",
+        "source_contig": "test_genome",
+        "source_pos": 99984,
+        "mapq": 0,
+        "seq": "ATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 5): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2123",
+        "source_contig": "test_genome",
+        "source_pos": 99323,
+        "mapq": 60,
+        "seq": "AGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAATAGAATTGGCTTC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -677): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap2123",
+        "source_contig": "test_genome",
+        "source_pos": 99657,
+        "mapq": 60,
+        "seq": "GATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -343): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13111",
+        "source_contig": "test_genome",
+        "source_pos": 99659,
+        "mapq": 60,
+        "seq": "AAGATATATCAAAAGCGTCCATGGGAGGTTGTTACATGACGTCACAACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTCTTCAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -341): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap13111",
+        "source_contig": "test_genome",
+        "source_pos": 99333,
+        "mapq": 60,
+        "seq": "GTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCCGATTACGTTCGTGATATCCTACCGCATTATGTATGCTTACGCCACCAAATAGAATTGGCTTCATGAAGAAAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -667): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119525",
+        "source_contig": "test_genome",
+        "source_pos": 99499,
+        "mapq": 60,
+        "seq": "GCGACACTTCACTGAATGGATCACCGGGAATCTCATCTCATGGAGTCTCTCACTACTTCGCCATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -501): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119525",
+        "source_contig": "test_genome",
+        "source_pos": 99879,
+        "mapq": 60,
+        "seq": "GACGTCCTCGGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACATGGTCAGGTCAGTATGTTGGTTTGACTGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -121): 8)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap19251",
+        "source_contig": "test_genome",
+        "source_pos": 99778,
+        "mapq": 60,
+        "seq": "CAACCTCCCATGGACGCTTTTGATATATCTTGATCCTTTACGAGACTGATCCTTTAGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -222): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap19251",
+        "source_contig": "test_genome",
+        "source_pos": 100092,
+        "mapq": 60,
+        "seq": "TCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTAACCGACCACATTTTGCTGTTTTTTGGTCCTCAAGGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 74): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22223",
+        "source_contig": "test_genome",
+        "source_pos": 99567,
+        "mapq": 60,
+        "seq": "CCAGAACTCTACATGGCCAGAAAGAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATTGATGCTTTATTTTCCGCAGCAAATTTAGCTGGTCAATGGGCCACGGAACGTCAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -433): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22223",
+        "source_contig": "test_genome",
+        "source_pos": 99227,
+        "mapq": 60,
+        "seq": "CCAAGCAGGTGTACCGGCCCCTGGAGACGTTGAGAGCTATGCACCTGCGACGAACACAAGAGTCGGGGGGCCAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -773): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17933",
+        "source_contig": "test_genome",
+        "source_pos": 99988,
+        "mapq": 60,
+        "seq": "TGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGGCAAGCGCAAATACCTAGTCCTGGGGACGCAGATGGATCGAAGACCTTGAGGACCAAAAAACAGCAAAATGTGGTCGGTTACTTTTCTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, -30): 8)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap17933",
+        "source_contig": "test_genome",
+        "source_pos": 100312,
+        "mapq": 60,
+        "seq": "GTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGATTCGGCGCTTAGATTTTTAAACGATAGGGCTTCATTGTAATTAAGGAAGATCGAGTAACGCAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 294): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1635",
+        "source_contig": "test_genome",
+        "source_pos": 100353,
+        "mapq": 60,
+        "seq": "CAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTGGTTTCGACTGGTTCGGCGCTTAGATTTTTAAAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 335): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap1635",
+        "source_contig": "test_genome",
+        "source_pos": 100129,
+        "mapq": 60,
+        "seq": "ACTTTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 111): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap116647",
+        "source_contig": "test_genome",
+        "source_pos": 100176,
+        "mapq": 60,
+        "seq": "ATCGAGTAACGCATCCCCTTATACTCAATCGTATTGTAGGACACAGCCCGCCGCGGTTTGAAGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 158): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap116647",
+        "source_contig": "test_genome",
+        "source_pos": 99900,
+        "mapq": 60,
+        "seq": "CCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGATACCGAGGACGTCAAGGATGTTTGTGTATCGAGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -100): 21)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap16233",
+        "source_contig": "test_genome",
+        "source_pos": 99560,
+        "mapq": 60,
+        "seq": "CATAGGACTGACGTTCCGTGGCCCATTGACCAGCTAAATTTGCTGCGGAAAATAAAGCATCAATCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTGACACTCTTTCTGGCCATGTAGA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -440): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap16233",
+        "source_contig": "test_genome",
+        "source_pos": 99834,
+        "mapq": 60,
+        "seq": "CCGACTTGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATAATCAGTACCACGAGCAAGTGGAGTTTACGTGGTCAGGTCAGTATGTTGGTTTGACTGGGCGCGTGTAGCTTACGTAGACGTGGGTACATAATTTTCGGCATGC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -166): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112557",
+        "source_contig": "test_genome",
+        "source_pos": 100538,
+        "mapq": 60,
+        "seq": "TGTTATGCTGGCAGCCGGATCTCATCTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 520): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112557",
+        "source_contig": "test_genome",
+        "source_pos": 100292,
+        "mapq": 60,
+        "seq": "ATACGATTGAGTATAAGGGGATGCGTTACTCGATCTTCCTTAATTACAATGAAGCCCTATCCTTTAAAAATCTAAGCGCCGAACCAGTCGAAACCAGGTCCTATATAGGCCCCTACAGAATAAAGGGAGTACTCAGACGGTATGACCTGG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 274): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218683",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 60,
+        "seq": "TCGATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTCCTCGGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, -78): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap218683",
+        "source_contig": "test_genome",
+        "source_pos": 100000,
+        "mapq": 0,
+        "seq": "ATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGCTACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 3): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119721",
+        "source_contig": "test_genome",
+        "source_pos": 100516,
+        "mapq": 60,
+        "seq": "CATCTATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTAAACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 498): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119721",
+        "source_contig": "test_genome",
+        "source_pos": 100154,
+        "mapq": 60,
+        "seq": "TGCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 136): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29189",
+        "source_contig": "test_genome",
+        "source_pos": 99867,
+        "mapq": 0,
+        "seq": "TCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 4): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap29189",
+        "source_contig": "test_genome",
+        "source_pos": 99867,
+        "mapq": 60,
+        "seq": "GGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCAAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCGGGTCGTGAAGATAGCGTCAGATACAGATACAGAT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -133): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119689",
+        "source_contig": "test_genome",
+        "source_pos": 100511,
+        "mapq": 60,
+        "seq": "ATCATGGCAGGCGGTCCCTCGATCCTTTGTCTTAGCCCGAAGCACTATGAAGCTAAAACGTCGGCAAATCGGTTACTTACACAGGTCTCGGACCTATACGTATAAACATACGGTGTCTGAAGCGTCGCAAGGTGTGAATGTTCAATTGGT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 493): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap119689",
+        "source_contig": "test_genome",
+        "source_pos": 100189,
+        "mapq": 60,
+        "seq": "AAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGCCGGAGCCTGAGTCACCTGTTGTTCCACGTGCCTTCAAACCGCGGCGGGCTGTGTCCTACAATACGATTGAGTATAAGGGGACGCGTTACTCGATCTTCCTTAATTAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 171): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap113643",
+        "source_contig": "test_genome",
+        "source_pos": 99261,
+        "mapq": 60,
+        "seq": "AGCTATGCACCTGCGACGAACACAAGAGTCGGGGGGCAAGGAGCGGGGAATCTGGATTAGAAAGGATGAGCCGTCGACAAACTGCGGGCTGCCTCCTACTGACTGGATCGTTGTAGAAAAACCGTCATGCTTTAACCGTATCGTGTACCC",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -739): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap113643",
+        "source_contig": "test_genome",
+        "source_pos": 99614,
+        "mapq": 60,
+        "seq": "AACAGAACGGACCCTGAAACACCAATCCTTGGGCACAATCTTTGTGTCCAGAACTCTACATGGCCAGAAAAAGTGTCACCAAACCACTTGGTACTGCCTGTTCAGTCTCGGGAATACTCGCTAGTGGCCCCATGCCAACGATTGATGCTT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -386): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112429",
+        "source_contig": "test_genome",
+        "source_pos": 99937,
+        "mapq": 60,
+        "seq": "ATCCATCTGCGTCCCCAGGACTAGGTATTTGCGCTTGCCTCGATACACAAACATCCTTGACGTACTCGGTATCTGTATCTGTATCTGACGCTATCTTCACGACCCGACTTGTGGGCTTATGCTGGCGTGTTTACTGGATTTGCCCGAATA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Reverse, -63): 42)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap112429",
+        "source_contig": "test_genome",
+        "source_pos": 99623,
+        "mapq": 60,
+        "seq": "TCGTTGGCATGGGGCCACTAGCGAGTATTCCCGAGACTGAACAGGCAGTACCAAGTGGTTTGGTTACACTCTTTCTGGCCATGTAGAGTTCTGGACACAAAGATTGTGCCCAAGGATTGGTGTTTCAGGGTCCGTTCTGTTGTGACGTCA",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -377): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap110881",
+        "source_contig": "test_genome",
+        "source_pos": 100386,
+        "mapq": 60,
+        "seq": "CGCAAGGTGTGAATGTTCAATTGGTAGTAGTCTCAGTACACTAAGCTGCGTAAGTAGACCTACCTGAGGAGGATGTCGTCCTAAGTAAGTCCTGCCAGGTCATACCGTCTGAGTACTCCCTTTATTCTGTAGGGGCCTATATAGGACCTG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 368): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap110881",
+        "source_contig": "test_genome",
+        "source_pos": 100132,
+        "mapq": 60,
+        "seq": "TTTCTAATTGCTTCTATGTCCATTCTTGGGCATCCTGTGTTTACGACCGAAACAACTAAGTCGACTGAGATCAGTTGACGATTATGTTCTACTGATGGGACGGAGCCTGAGTCACCTGTTGTTCCGCGTGCCTTCAAACCGCGGCGGGCT",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatEnd(Forward, 114): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24569",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "TCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTA",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(WithinRepeat(Reverse, 4): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap24569",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "ATACAGATACAGATACAGATACAGATAAAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATCCAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Forward, 3): 2)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap19111",
+        "source_contig": "test_genome",
+        "source_pos": 100115,
+        "mapq": 60,
+        "seq": "AGGCACGCGGAACAACAGGTGACTCAGGCTCCGGCCCATCAGTAGAACATAATCGTCAACTGATCTCAGTCGACTTAGTTGTTTCGGTCGTAAACACAGGATGCCCAAGAATGGACATAGAAGCAATTAGAAAAGTAACCGACCACATTT",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatEnd(Reverse, 97): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap19111",
+        "source_contig": "test_genome",
+        "source_pos": 99833,
+        "mapq": 60,
+        "seq": "AGCATGCCCAAAATTATGTACCCCCGTCTACGTAAGCTACACGCGCCCAGTCAAACCAACATACTGACCTGACCACGTAAACTCCACTTGCTCGTGGTACTGATTATTCGGGCGAATCCAGTAAACACGCCAGCATAAGCCCACAAGTCG",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -167): 1)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22105",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "AGATAGCGTCAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAGATACAG",
+        "seq_len": 150,
+        "is_first_in_template": true,
+        "position_set": [
+          "(RelativeToRepeatStart(Forward, -9): 0)"
+        ]
+      },
+      {
+        "qname": "test_genome-hap22105",
+        "source_contig": "*",
+        "source_pos": -1,
+        "mapq": 0,
+        "seq": "CTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTATCTGTAC",
+        "seq_len": 150,
+        "is_first_in_template": false,
+        "position_set": [
+          "(WithinRepeat(Reverse, 3): 1)"
+        ]
+      }
+    ],
+    "num_lowest_distances": 1,
+    "mates": {
+      "194": 195,
+      "205": 204,
+      "32": 33,
+      "208": 209,
+      "77": 76,
+      "234": 235,
+      "238": 239,
+      "157": 156,
+      "192": 193,
+      "255": 254,
+      "163": 162,
+      "162": 163,
+      "219": 218,
+      "68": 69,
+      "176": 177,
+      "165": 164,
+      "35": 34,
+      "236": 237,
+      "24": 25,
+      "71": 70,
+      "128": 129,
+      "137": 136,
+      "136": 137,
+      "254": 255,
+      "109": 108,
+      "195": 194,
+      "42": 43,
+      "156": 157,
+      "218": 219,
+      "220": 221,
+      "98": 99,
+      "187": 186,
+      "245": 244,
+      "228": 229,
+      "181": 180,
+      "198": 199,
+      "158": 159,
+      "78": 79,
+      "101": 100,
+      "267": 266,
+      "131": 130,
+      "230": 231,
+      "17": 16,
+      "180": 181,
+      "46": 47,
+      "182": 183,
+      "237": 236,
+      "239": 238,
+      "20": 21,
+      "65": 64,
+      "201": 200,
+      "45": 44,
+      "67": 66,
+      "97": 96,
+      "264": 265,
+      "130": 131,
+      "102": 103,
+      "87": 86,
+      "233": 232,
+      "138": 139,
+      "58": 59,
+      "18": 19,
+      "88": 89,
+      "96": 97,
+      "90": 91,
+      "223": 222,
+      "167": 166,
+      "6": 7,
+      "149": 148,
+      "133": 132,
+      "173": 172,
+      "40": 41,
+      "140": 141,
+      "207": 206,
+      "235": 234,
+      "38": 39,
+      "246": 247,
+      "257": 256,
+      "23": 22,
+      "169": 168,
+      "27": 26,
+      "104": 105,
+      "155": 154,
+      "116": 117,
+      "259": 258,
+      "265": 264,
+      "82": 83,
+      "61": 60,
+      "113": 112,
+      "185": 184,
+      "191": 190,
+      "152": 153,
+      "199": 198,
+      "62": 63,
+      "197": 196,
+      "122": 123,
+      "4": 5,
+      "52": 53,
+      "66": 67,
+      "105": 104,
+      "134": 135,
+      "170": 171,
+      "224": 225,
+      "226": 227,
+      "229": 228,
+      "39": 38,
+      "22": 23,
+      "57": 56,
+      "129": 128,
+      "215": 214,
+      "141": 140,
+      "231": 230,
+      "166": 167,
+      "76": 77,
+      "154": 155,
+      "193": 192,
+      "117": 116,
+      "211": 210,
+      "60": 61,
+      "13": 12,
+      "184": 185,
+      "258": 259,
+      "112": 113,
+      "30": 31,
+      "210": 211,
+      "8": 9,
+      "183": 182,
+      "85": 84,
+      "69": 68,
+      "100": 101,
+      "175": 174,
+      "19": 18,
+      "37": 36,
+      "247": 246,
+      "203": 202,
+      "160": 161,
+      "31": 30,
+      "150": 151,
+      "232": 233,
+      "161": 160,
+      "221": 220,
+      "249": 248,
+      "10": 11,
+      "145": 144,
+      "204": 205,
+      "253": 252,
+      "261": 260,
+      "144": 145,
+      "171": 170,
+      "177": 176,
+      "73": 72,
+      "153": 152,
+      "225": 224,
+      "250": 251,
+      "103": 102,
+      "244": 245,
+      "189": 188,
+      "15": 14,
+      "132": 133,
+      "147": 146,
+      "260": 261,
+      "3": 2,
+      "111": 110,
+      "80": 81,
+      "86": 87,
+      "110": 111,
+      "190": 191,
+      "172": 173,
+      "216": 217,
+      "48": 49,
+      "53": 52,
+      "81": 80,
+      "252": 253,
+      "29": 28,
+      "63": 62,
+      "99": 98,
+      "1": 0,
+      "127": 126,
+      "25": 24,
+      "222": 223,
+      "124": 125,
+      "251": 250,
+      "54": 55,
+      "202": 203,
+      "159": 158,
+      "16": 17,
+      "7": 6,
+      "135": 134,
+      "143": 142,
+      "188": 189,
+      "243": 242,
+      "256": 257,
+      "70": 71,
+      "95": 94,
+      "174": 175,
+      "266": 267,
+      "196": 197,
+      "240": 241,
+      "106": 107,
+      "91": 90,
+      "209": 208,
+      "263": 262,
+      "148": 149,
+      "2": 3,
+      "74": 75,
+      "123": 122,
+      "178": 179,
+      "12": 13,
+      "139": 138,
+      "164": 165,
+      "14": 15,
+      "41": 40,
+      "56": 57,
+      "114": 115,
+      "107": 106,
+      "151": 150,
+      "44": 45,
+      "11": 10,
+      "72": 73,
+      "92": 93,
+      "75": 74,
+      "146": 147,
+      "83": 82,
+      "115": 114,
+      "0": 1,
+      "79": 78,
+      "5": 4,
+      "36": 37,
+      "47": 46,
+      "89": 88,
+      "93": 92,
+      "248": 249,
+      "43": 42,
+      "227": 226,
+      "55": 54,
+      "34": 35,
+      "118": 119,
+      "125": 124,
+      "28": 29,
+      "119": 118,
+      "59": 58,
+      "26": 27,
+      "108": 109,
+      "121": 120,
+      "126": 127,
+      "49": 48,
+      "21": 20,
+      "206": 207,
+      "212": 213,
+      "64": 65,
+      "241": 240,
+      "217": 216,
+      "179": 178,
+      "168": 169,
+      "262": 263,
+      "33": 32,
+      "84": 85,
+      "50": 51,
+      "120": 121,
+      "214": 215,
+      "51": 50,
+      "142": 143,
+      "186": 187,
+      "200": 201,
+      "94": 95,
+      "9": 8,
+      "213": 212,
+      "242": 243
+    }
+  }
+]
