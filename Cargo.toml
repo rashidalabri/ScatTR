@@ -5,7 +5,7 @@ edition = "2021"
 description = "A tool for estimating the copy number of large tandem repeats"
 repository = "https://github.com/rashidalabri/scattr"
 license = "MIT OR Apache-2.0"
-keywords = ["tandem repeats", "genomics", "genotyping", "bioinformatics", "biology"]
+keywords = ["genomics", "genotyping", "bioinformatics", "biology"]
 categories = ["command-line-utilities", "science"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
